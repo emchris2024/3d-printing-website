@@ -1,0 +1,30 @@
+# Old or damaged Git repositories
+.git-broken-*/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Runtime and generated data
+backups/
+logs/
+uploads/
+postgres/
+database/
+cloudflared/
+letsencrypt/
+
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
